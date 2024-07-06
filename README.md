@@ -1,31 +1,54 @@
-HEAD
-# number-guessing-game
-A simple number guessing game implemented in Python.
-
 # Number Guessing Game
 
-## Project Description
-This is a simple number guessing game implemented in Python using the `tkinter` library for the graphical user interface (GUI). The player is prompted to guess a randomly generated number within a specified range.
+This is a simple number guessing game implemented in Python using the Tkinter library. The game allows players to guess a randomly generated number within a specified range.
 
-## Setup Instructions
-1. Ensure Python is installed on your computer.
-2. Clone the repository or download the `number_guessing_game.py` file.
-3. Run the game by executing the following command in your terminal:
-   ```sh
-   python number_guessing_game.py
-   ```
+## Features
+
+- **Main Menu:** Start the game, select difficulty levels, and exit.
+- **Difficulty Levels:** Choose from Easy, Medium, and Hard, each with a different number range and maximum attempts.
+- **Gameplay:** Guess the number within the given attempts and receive feedback on whether your guess is high or low.
+- **Pause and Resume:** Pause the game at any time and resume when ready.
+- **Hints:** Get hints about the number is even or odd.
+- **Play Again:** After finishing a game, choose to play again or exit.
 
 ## How to Play
-1. The game will prompt you to guess a number between 1 and 100.
-2. Enter your guess in the input field and click the "Guess" button.
-3. The game will provide feedback indicating whether your guess is too low, too high, or correct.
-4. You have a limited number of attempts to guess the correct number.
-5. If you guess the correct number or run out of attempts, the game will end and offer you the option to play again.
 
-## Additional Features
-- Input validation to ensure only valid numbers are entered.
-- Option to play again after the game ends.
+1. **Main Menu**
+   - Click on the "PLAY" button to start.
+   - Select a difficulty level (Easy, Medium, Hard) to begin the game.
+   - Click "EXIT" to quit the application.
 
-## Dependencies
-- `tkinter`: The standard Python interface to the Tk GUI toolkit. It comes pre-installed with Python.
- c3ed5fd (Initial commit of number guessing game)
+2. **Gameplay**
+   - Guess the number within the specified range.
+   - Use the OK button or press Enter to confirm your guess.
+   - Receive feedback on whether your guess is high, low, or correct.
+   - Use hints to get additional clues about the number.
+
+3. **End of Game**
+   - After using all attempts or guessing correctly, see the result.
+   - Click "PLAY AGAIN" to start a new game or "EXIT" to quit.
+
+## Installation
+
+1. Clone the repository:
+   ```
+   git clone https://github.com/kulsum842/number-guessing-game
+   ```
+
+2. Install dependencies:
+   - Ensure you have Python 3.x installed.
+   - Install Tkinter if not already available:
+     ```
+     pip install tk
+     ```
+
+3. Run the game:
+   ```
+   python number_guessing_game2.py
+   ```
+
+## Credits
+
+- Developed by [Kulsum Kondkar]
+- Built with Python and Tkinter
+
