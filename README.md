@@ -49,6 +49,6 @@ This is a simple number guessing game implemented in Python using the Tkinter li
 
 ## Credits
 
-- Developed by [Kulsum Kondkar]
+- Developed by Kulsum Kondkar
 - Built with Python and Tkinter
 
